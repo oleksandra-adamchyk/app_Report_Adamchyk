@@ -1,7 +1,15 @@
+/* ==== Загальні стилі ==== */
 /** {
   outline: 1px solid red;
 }*/
 
+/* ==== Утилітні класи ==== */
+.hidden {
+  display: none;
+}
+
+
+/* ==== Загальні стилі ==== */
 body {
   font-family: Arial, sans-serif;
   margin: 0 60px;
@@ -36,6 +44,7 @@ h1 {
   margin: 0;
 }
 
+/* ==== Кнопки ==== */
 .top-buttons {
   display: flex;
   justify-content: space-between;

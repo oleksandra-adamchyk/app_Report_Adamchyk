@@ -21,55 +21,146 @@
     </header>
 
     <div class="top-buttons">
-      <button>ЛР1</button>
-      <button>ЛР1.2</button>
-      <button>ЛР2</button>
-      <button>ЛР2.2</button>
-      <button>ЛР3</button>
-      <button>ЛР3.2</button>
-      <button>ЛР4</button>
-      <button>ЛР5</button>
-      <button>ЛР6</button>
-    </div>
+  <button data-lab="lr1">ЛР1</button>
+  <button data-lab="lr1.2">ЛР1.2</button>
+  <button data-lab="lr2">ЛР2</button>
+  <button data-lab="lr2.2">ЛР2.2</button>
+  <button data-lab="lr3">ЛР3</button>
+  <button data-lab="lr3.2">ЛР3.2</button>
+  <button data-lab="lr4">ЛР4</button>
+  <button data-lab="lr5">ЛР5</button>
+  <button data-lab="lr6">ЛР6</button>
+</div>
 
     <div class="main-layout">
       <aside class="sidebar">
-        <button>Тема</button>
-        <button>Завдання</button>
-        <button>Результат</button>
-        <button>Скріншоти</button>
-        <button>Висновки</button>
-      </aside>
+  <button class="sidebar-button" data-section="theme">Тема</button>
+  <button class="sidebar-button" data-section="task">Завдання</button>
+  <button class="sidebar-button" data-section="result">Результати</button>
+  <button class="sidebar-button" data-section="screenshots">Скріншоти</button>
+  <button class="sidebar-button" data-section="conclusion">Висновки</button>
+</aside>
 
       <main class="content-area">
         <div id="lab-contents">
-        <!-- ЛР1 -->
-         <!-- ЛР2 -->
+          <!-- ЛР1 -->
+          <div id="lr1-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
+          <!-- ЛР1.2 -->
+          <div id="lr1.2-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
+          <!-- ЛР2 -->
+          <div id="lr2-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
+          <!-- ЛР2.2 -->
+          <div id="lr2.2-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
           <!-- ЛР3 -->
+          <div id="lr3-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
+          <!-- ЛР3.2 -->
+          <div id="lr3.2-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
           <!-- ЛР4 -->
-          <div id="lr4-content" class="lab-content hidden">
-            <h2>
+          <div id="lr4-content" class="lab-content">
+            
+            <div class="section" data-section="theme"><h2>
               Тема: КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ.
               ДЕЛЕГУВАННЯ ПОДІЙ. THROTTLE. МОДУЛЬНОСТЬ КОДУ
             </h2>
             <p>
-              <strong>
-                Мета: придбати практичні навички роботи з об'єктами. Методи
+              <h3>
+                Мета: Придбати практичні навички роботи з об'єктами. Методи
                 об'єкта. Callback. Стрілочні функції. Стрілочні функції як
-                колбеки. Реалізація програм засовами мови JAVASCRIPT.</strong
-              >
-            </p>
-            <div class="section" data-section="theme">...</div>
-            <div class="section hidden" data-section="task">...</div>
-            <div class="section hidden" data-section="result">...</div>
-            <div class="section hidden" data-section="screenshots">...</div>
-            <div class="section hidden" data-section="conclusion">...</div>
+                колбеки. Реалізація програм засовами мови JAVASCRIPT.</h3>
+            </p></div>
+            <div class="section" data-section="task">Тут має бути завдання до ЛР4</div>
+            <div class="section" data-section="result">Тут має бути результат виконання програми до ЛР4</div>
+            <div class="section" data-section="screenshots">Тут мають бути скріншоти коду до ЛР4</div>
+            <div class="section" data-section="conclusion">Тут мають бути висновки до ЛР4</div>
           </div>
 
           <!-- ЛР5 -->
-           <!-- ЛР6 -->
+          <div id="lr5-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
+          <!-- ЛР6 -->
+          <div id="lr6-content" class="lab-content">
+            <h2>Тема:</h2>
+            <p>
+              <strong> Мета: </strong>
+            </p>
+            <div class="section" data-section="theme">...</div>
+            <div class="section" data-section="task">...</div>
+            <div class="section" data-section="result">...</div>
+            <div class="section" data-section="screenshots">...</div>
+            <div class="section" data-section="conclusion">...</div>
+          </div>
         </div>
       </main>
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>
